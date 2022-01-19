@@ -16475,7 +16475,7 @@
       }),
         $(document).ready(function () {
           var e = $('#data-table').DataTable({
-            ajax: '/src/file.json',
+            ajax: 'js/file.json',
             columns: [
               {
                 data: 'network',
